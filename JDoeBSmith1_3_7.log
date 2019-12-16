@@ -1,0 +1,123 @@
+# IPython log file
+
+# Mon, 16 Dec 2019 12:42:29
+numbers = [1, 2, 3, 4]
+for item in numbers:
+    print(item**2)
+    
+    1
+    4
+    9
+    16# Mon, 16 Dec 2019 12:42:41
+help(range)# Mon, 16 Dec 2019 12:44:26
+range(4)#[Out]# range(0, 4)
+# Mon, 16 Dec 2019 12:44:42
+range(20, 12, -3)#[Out]# range(20, 12, -3)
+# Mon, 16 Dec 2019 12:46:03
+# 6. range()# Mon, 16 Dec 2019 12:47:39
+# use ramge to get the output show below# Mon, 16 Dec 2019 12:49:14
+def days():
+    '''explain tge fuction here
+    '''
+    for day in 'MTWRFSS':
+        print(day + 'day')
+    for day in range(5,8):
+        print('It is the ' + str(day) + 'th of Spetember')# Mon, 16 Dec 2019 12:49:19
+days()# Mon, 16 Dec 2019 12:53:30
+days()# Mon, 16 Dec 2019 12:53:49
+dice(5)# Mon, 16 Dec 2019 12:56:13
+def roll_die_dice():
+    die1 = random.choice([1,2,3,4,5,6])
+    die2 = random.radiant(1, 6)
+    return die1 + die2 **5
+# Mon, 16 Dec 2019 12:58:24
+def hangman_display(guessed, secret):
+    ret = ""
+    for 1 in secret:
+        x = 0
+        for j in guessed:
+            if i.lower() in j.lower():
+                x = 1
+        if x == 1 or (i in " !,. ")# Mon, 16 Dec 2019 12:59:20
+def hangman_display(guessed, secret):
+    ret = ""
+    for 1 in secret:
+        x = 0
+        for j in guessed:
+            if i.lower() in j.lower():
+                x = 1
+        if x == 1 or (i in " !,. ")
+        # Mon, 16 Dec 2019 13:07:00
+def hangman_display(guessed, secret):
+    ret = ""
+    for 1 in secret:
+        x = 0
+        for j in guessed:
+            if i.lower() in j.lower():
+                x = 1
+        if x == 1 or (i)# Mon, 16 Dec 2019 13:07:59
+def hangman_display(guessed, secret):
+    ret = ""
+    for 1 in secret:
+        x = 0
+        for j in guessed:
+            if i.lower() in j.lower():
+                x = 1
+        if x == 1# Mon, 16 Dec 2019 13:24:21
+def hangman_display(guessed, secret):
+    ret = ""
+    for letter in secret:
+        if guessed == letter:
+            ret += guessed 
+        elif letter == " ":
+            ret  += " "
+        else: 
+            ret += "-"# Mon, 16 Dec 2019 13:25:07
+def hangman_display(guessed, secret):
+    ret = ""
+    for letter in secret:
+        if guessed == letter:
+            ret += guessed 
+        elif letter == " ":
+            ret  += " "
+        else: 
+            ret += "-"
+    print(ret)# Mon, 16 Dec 2019 13:25:36
+hangman_display('aer', 'earth orbit')# Mon, 16 Dec 2019 13:26:11
+hangman_display('fun', 'program puzzles')# Mon, 16 Dec 2019 13:26:37
+def hangman_display(guessed, secret):
+    ret = ""
+    for letter in secret:
+        if guessed in secret:
+            ret += guessed 
+        elif letter == " ":
+            ret  += " "
+        else: 
+            ret += "-"
+    print(ret)# Mon, 16 Dec 2019 13:26:38
+hangman_display('aer', 'earth orbit')# Mon, 16 Dec 2019 13:26:38
+hangman_display('fun', 'program puzzles')# Mon, 16 Dec 2019 13:27:09
+def hangman_display(guessed, secret):
+    ret = ""
+    for letter in secret:
+        if guessed in secret:
+            ret += guessed 
+        elif letter == " ":
+            ret  += " "
+        else: 
+            ret += "-"
+    print(ret)# Mon, 16 Dec 2019 13:27:10
+hangman_display('aer', 'earth orbit')# Mon, 16 Dec 2019 13:27:10
+hangman_display('fun', 'program puzzles')# Mon, 16 Dec 2019 13:28:27
+def hangman_display(guessed, secret):
+    ret = ""
+    for letter in secret:
+        if guessed in secret:
+            ret += guessed 
+        if letter == " ":
+            ret  += " "
+        else: 
+            ret += "-"
+    print(ret)# Mon, 16 Dec 2019 13:28:28
+hangman_display('aer', 'earth orbit')# Mon, 16 Dec 2019 13:28:28
+hangman_display('fun', 'program puzzles')
